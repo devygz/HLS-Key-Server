@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.21.1",
+    "iovalkey": "^0.1.0"
+  },
+  "name": "myowndrm-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "YAGIZHAN ISIK",
+  "license": "ISC",
+  "description": ""
+}
