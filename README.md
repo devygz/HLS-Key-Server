@@ -2,6 +2,8 @@
   
 ### Simple HLS Key Server with Built-in Basic Access Control support. Uses Node.js, Express and Valkey as database. 
   <br>  
+  IMPORTANT: This project was developed as a personal project and may not represent production-grade security or reliability standards. While it aims to be functional and useful, it might contain security vulnerabilities or other issues that have not been addressed. Please use this software with caution, especially in scenarios where robust security is required. Contributions, feedback, and improvements are welcome, but active maintenance is not guaranteed.
+<br><br>
 This server is designed to deliver AES-128 keys to HLS-compatible players conditionally, allowing precise and straightforward content access control. This server is not an alternative to Platform-based DRM solutions, as it cannot prevent copies of the content from being made, but it provides an effective way to control access and customize delivery rights, such as restricting the delivery of certain portions of content or revoking access to live streams after a specific timeout, without implementing file-based ACL restrictions.<br>
   <br>
 For this server to be useful, periodic rotation of keys is required for both VOD (using multiple keys for different content segments) and live streaming content.
