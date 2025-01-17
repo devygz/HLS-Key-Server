@@ -2,8 +2,8 @@ const Redis = require("iovalkey");
 const basics = require("./basics");
 
 // Create a Redis instance.
-// By default, it will connect to localhost:6379.
-// We are going to cover how to specify connection options soon.
+// By default, this connects to localhost:6379.
+
 const redis = new Redis();
 
 function writeKey(key, value, ttl) {
